@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>iconfont</title>
+	<style>
+		body{
+			padding: 1.875rem;
+			font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+			font-size: 1em;
+			background-color:#333;
+			color:#fff;
+		}
+		h1{
+			font-size: 1.875rem;
+			margin-bottom: 2rem;
+		}
+		ul{
+			display: flex;
+			flex-wrap: wrap;
+			gap: 2.5rem;
+			margin: 0;
+			padding: 0;
+		}
+		ul li{
+			margin-bottom: 0.625rem;
+			display: inline-flex;
+			gap: 0.625rem;
+			list-style: none;
+			align-items: center;
+		}
+		ul li::before{
+			font-size: 2rem;
+		}
+		@font-face { 
+	font-family: "iconfont"; 
+	font-display: swap;
+	src: url("F://saitu/mag-nogiv/src/assets/svgicons/preview/iconfont.woff2?69d84d3b40ef5b1a3225c64775fcbe5d") format("woff2"); 
+} 
+[class*="--icon-"]::before{
+	font-family: iconfont; 
+}
+	[class*="--icon-user"]::before { 
+		content: "\f101"; 
+	} 
+	[class*="--icon-spoller-arrow"]::before { 
+		content: "\f102"; 
+	} 
+	[class*="--icon-search"]::before { 
+		content: "\f103"; 
+	} 
+	[class*="--icon-logo"]::before { 
+		content: "\f104"; 
+	} 
+	[class*="--icon-location"]::before { 
+		content: "\f105"; 
+	} 
+	[class*="--icon-footer-phone"]::before { 
+		content: "\f106"; 
+	} 
+	[class*="--icon-footer-location"]::before { 
+		content: "\f107"; 
+	} 
+	[class*="--icon-footer-email"]::before { 
+		content: "\f108"; 
+	} 
+	[class*="--icon-footer-clock"]::before { 
+		content: "\f109"; 
+	} 
+	[class*="--icon-favorite"]::before { 
+		content: "\f10a"; 
+	} 
+	[class*="--icon-compare"]::before { 
+		content: "\f10b"; 
+	} 
+	[class*="--icon-cart"]::before { 
+		content: "\f10c"; 
+	} 
+	[class*="--icon-back"]::before { 
+		content: "\f10d"; 
+	} 
+	[class*="--icon-arrow-bottom"]::before { 
+		content: "\f10e"; 
+	} 
+
+	</style>
+</head>
+<body>
+	<h1>Перелік іконок та їх класів:</h1>
+	<ul>
+			<li class="--icon-user">--icon-user</li>
+			<li class="--icon-spoller-arrow">--icon-spoller-arrow</li>
+			<li class="--icon-search">--icon-search</li>
+			<li class="--icon-logo">--icon-logo</li>
+			<li class="--icon-location">--icon-location</li>
+			<li class="--icon-footer-phone">--icon-footer-phone</li>
+			<li class="--icon-footer-location">--icon-footer-location</li>
+			<li class="--icon-footer-email">--icon-footer-email</li>
+			<li class="--icon-footer-clock">--icon-footer-clock</li>
+			<li class="--icon-favorite">--icon-favorite</li>
+			<li class="--icon-compare">--icon-compare</li>
+			<li class="--icon-cart">--icon-cart</li>
+			<li class="--icon-back">--icon-back</li>
+			<li class="--icon-arrow-bottom">--icon-arrow-bottom</li>
+	</ul>
+</body>
+</html>

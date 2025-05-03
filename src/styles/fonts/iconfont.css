@@ -1,0 +1,50 @@
+@font-face { 
+	font-family: "iconfont"; 
+	font-display: swap;
+	src: url("F://saitu/mag-nogiv/src/assets/svgicons/preview/iconfont.woff2?35d2adaa2c320bc7931564d3b3e8340b") format("woff2"); 
+} 
+[class*="--icon-"]::before{
+	font-family: iconfont; 
+}
+	[class*="--icon-user"]::before { 
+		content: "\f101"; 
+	} 
+	[class*="--icon-spoller-arrow"]::before { 
+		content: "\f102"; 
+	} 
+	[class*="--icon-search"]::before { 
+		content: "\f103"; 
+	} 
+	[class*="--icon-logo"]::before { 
+		content: "\f104"; 
+	} 
+	[class*="--icon-location"]::before { 
+		content: "\f105"; 
+	} 
+	[class*="--icon-footer-phone"]::before { 
+		content: "\f106"; 
+	} 
+	[class*="--icon-footer-location"]::before { 
+		content: "\f107"; 
+	} 
+	[class*="--icon-footer-email"]::before { 
+		content: "\f108"; 
+	} 
+	[class*="--icon-footer-clock"]::before { 
+		content: "\f109"; 
+	} 
+	[class*="--icon-favorite"]::before { 
+		content: "\f10a"; 
+	} 
+	[class*="--icon-compare"]::before { 
+		content: "\f10b"; 
+	} 
+	[class*="--icon-cart"]::before { 
+		content: "\f10c"; 
+	} 
+	[class*="--icon-back"]::before { 
+		content: "\f10d"; 
+	} 
+	[class*="--icon-arrow-bottom"]::before { 
+		content: "\f10e"; 
+	} 
